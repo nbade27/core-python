@@ -16,8 +16,9 @@ employee_file.close()
 
 employee_file = open("employees.txt","r")
 # below line will give false because it is in writable mode
-print(employee_file.readable())
+# print(employee_file.readable())
 # below line will give false because it is in writable mode
-print(employee_file.readline())
-
-
+# print(employee_file.readline())
+# print(employee_file.read())
+# print(employee_file.read())
+employee_file.close()
